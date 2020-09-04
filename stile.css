@@ -1,8 +1,12 @@
 body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    
+   
 }
+body {
+  
+    background-image: url("fondo.jpg");
+  }
 .navbar {
     display: flex;
     align-items: center;
