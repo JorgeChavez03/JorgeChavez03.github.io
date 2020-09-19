@@ -1,0 +1,28 @@
+#cuerpoCarta{
+    width: 750px;
+    height: auto;
+    margin: 0 auto;
+}
+.enNegrita{
+    font-weight: bold;
+}
+.enCursiva{
+    font-style: oblique;
+}
+.txtDer{
+    text-align: right;
+}
+.txtIzq{
+    text-align: left;
+}
+.tituloA{
+    font-weight: bold;
+    font-size: 21px;
+}
+.tituloB{
+    font-weight: bold;
+    font-size: 19px;
+}
+.corridaDer{
+    padding-left: 40px;
+}
