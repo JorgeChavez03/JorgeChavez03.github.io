@@ -3,7 +3,12 @@
     <head>
         <meta charset="UTF-8">
        
-        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="bulma/css/bulma.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="font.css">
+        
         <link rel="stylesheet" href="estilopersonal.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mi Página Personal</title>
@@ -12,15 +17,74 @@
     <body>
         
         <!------------------Menu-------------->
-        <div id="menuopc"></div>
+        <header class="header">
 
-        <!---------------Carrousel de mis imagenes------------->
-        <div class="col-sm-8">
-            
+        <!--------NAVBAR usado de BULMA-->
+        <nav class="navbar is-primary">
+            <div class="navbar-brand">
+                <div class="navbar-item">
+                    <p class="title is-4 has-text-white">CHAVEZ BRAVO JORGE EDSON </p>
+                </div>
+            </div>
+    
+            <div class="navbar-menu">
+                <div class="navbar-end">
+                    <div class="navbar-item link">
+                        <a href="index.html">INICIO</a>
+                    </div>
+                    <div class="navbar-item">
+                        <a href="">NOSOTROS</a>
+                    </div>
+                    <div class="navbar-item">
+                        <a href="imagenes.html">IMAGENES</a>
+                    </div>
+                    <div class="navbar-item">
+                        <a href="contacto.html">CONTACTO</a>
+                    </div>
+                    <div class="navbar-item">
+                        <a href="carta05.html">CARTA</a>
+                    </div>
+
+                    <!---------dropdown con BULMA-->
+
+                    <div class="dropdown is-hoverable">
+                        <div class="dropdown-trigger">
+                          <button class="button" aria-haspopup="true" aria-controls="dropdown-menu2">
+                            <span>MÁS</span>
+                            <span class="icon is-small">
+                              <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                          </button>
+                        </div>
+                        <div class="dropdown-menu" id="dropdown-menu2" role="menu">
+                          <div class="dropdown-content">
+
+                            <div class="dropdown-item is-dark">
+                              <a class="button is-link" href="https://www.facebook.com/" target="_blank">Facebook</a>
+                            </div>
+
+                            <hr class="dropdown-divider">
+                            <div class="dropdown-item">
+                              <a class="button is-danger" href="https://www.youtube.com/" target="_blank">Youtube</a>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                      <!---------------------------->
+                </div>
+            </div>
+        </nav>
+        <!---------------------FIN DE NAVBAR----------------->
+        </header>
+
+
+        <!---------------Carousel con BOOTSTRAP------------->
+        <div class="container myBoot">
             <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-interval="2500">
-                    <img src="img/img_lugtur_01.png" class="d-block w-100" alt="...">
+                    <img src="img/img_lugtur_01.png" class="d-block w-100 miPicture" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Machu Picchu</h5>
                         <p>Machu Picchu es una ciudadela inca ubicada en las alturas de las montañas de los Andes en Perú, 
@@ -30,7 +94,7 @@
                   </div>
 
                   <div class="carousel-item" data-interval="2500">
-                    <img src="img/img_lugtur_02.jpg" class="d-block w-100" alt="...">
+                    <img src="img/img_lugtur_02.jpg" class="d-block w-100 miPicture" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>El lago Titicaca</h5>
                         <p>Está formado por dos cuerpos de agua separados por el estrecho de Tiquina; el más grande situado al norte es 
@@ -40,7 +104,7 @@
                   </div>
 
                   <div class="carousel-item" data-interval="2500">
-                    <img src="img/img_lugtur_03.jpg" class="d-block w-100" alt="...">
+                    <img src="img/img_lugtur_03.jpg" class="d-block w-100 miPicture" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Bosque de piedras de Cumbemayo</h5>
                         <p>
@@ -52,7 +116,7 @@
                   </div>
 
                   <div class="carousel-item" data-interval="2500">
-                    <img src="img/img_lugtur_04.jpg" class="d-block w-100" alt="...">
+                    <img src="img/img_lugtur_04.jpg" class="d-block w-100 miPicture" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Baños del Inca</h5>
                         <p>Es un balneario medicinal que atrae a miles de personas que buscan, en sus diversas pozas de aguas terapéuticas, 
@@ -71,34 +135,36 @@
                 </a>
               </div>
 
-
         </div>
         <!----------------------FIN Carousel--------------------------->
 
+<!------------------Redes sociales----------------->
+
+    <div class="social-bar">
+        <a href="https://www.facebook.com/" class="icon icon-facebook" target="_blank"></a>
+        <a href="https://twitter.com/a" class="icon icon-twitter" target="_blank"></a>
+        <a href="https://www.youtube.com/" class="icon icon-youtube" target="_blank"></a>
+        <a href="https://www.instagram.com/" class="icon icon-instagram" target="_blank"></a>
+    </div>
 
 
-        <h1>CHAVEZ BRAVO JORGE EDSON</h1>
-        <nav class="navbar">
-           
-                <a href="index.html">INICIO</a>
-				<a href="#">Nosotros</a>
-                <a href="imagenes.html">IMAGENES</a>
-                <a href="contacto.html">CONTACTO</a>
-                <a href="carta05.html">CARTA</a>
-					
-            
-         
-        </nav>
+<!-----------------Acerca de---------->
+    <div class="miBiografia">
+
         <section class="content abo">
-        <h2> Mi Bibliografía</h2>
-<p> Mi nombre es Jorge Edson Chávez Bravo, tengo 30 años, naci en la ciudad de Chiclayo,
-    <p> desde los 12 años llegue a establecerme en Cajamarca con mis padres y hermanos.</p>
-   <p> Estudie mi secundaria en el colegio Antonio Guillermo Urrelo, estoy en estudiando </p>
-   <p> actualmente en la Universidad Nacional de Cajamarca la carrera de Ingeniería de Sistemas </p>
-     
-    
-        <img src="img/perfil.jpeg"  alt="perfil" width="300" height="450">
-</section>
+            <h2> Mi Bibliografía</h2>
+            <p> Mi nombre es Jorge Edson Chávez Bravo, tengo 30 años, naci en la ciudad de Chiclayo,
+            <p> desde los 12 años llegue a establecerme en Cajamarca con mis padres y hermanos.</p>
+            <p> Estudie mi secundaria en el colegio Antonio Guillermo Urrelo, estoy en estudiando </p>
+            <p> actualmente en la Universidad Nacional de Cajamarca la carrera de Ingeniería de Sistemas </p>
+        
+        
+            <img src="img/perfil.jpeg"  alt="perfil" width="300" height="450">
+            </section>
+
+    </div>
+        
+        
 
 
 
