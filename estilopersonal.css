@@ -98,6 +98,23 @@ body {
 }
 /***********************************************/
 
+
+.styleGooFonts{
+	
+	font-family: 'Architects Daughter', cursive;
+}
+.styleGooFontsB{
+	color:#00D1B2;
+	font-family: 'Keania One', cursive;
+	font-size: 40pt
+}
+
+.txtGooFonts{
+	font-family: 'Fruktur', cursive;
+	font-size: 20pt;
+	color:red;
+}
+
 .abo {
 	
     background-color:    rgba(31, 26, 26, 0.5);
