@@ -39,12 +39,17 @@ body {
 }
 
 .miBiografia{
-	margin-top: 20px;
-	margin-right: 60px;
-	margin-left: 60px;
 	padding: 10px;
 }
 
+
+/********** CSS para el navbar**************/
+
+.navbar-a:hover {
+	color: #00D1B2; 
+}
+	
+/***************************************/
 
 /*CSS de redes sociales*/
 
@@ -98,13 +103,19 @@ body {
 }
 /***********************************************/
 
+.miSpacio{
+	padding: 10px;
+}
+.imgPerfil{
+	width: 450px;
+}
 
 .styleGooFonts{
 	
 	font-family: 'Architects Daughter', cursive;
 }
 .styleGooFontsB{
-	color:#00D1B2;
+	color:#222;
 	font-family: 'Keania One', cursive;
 	font-size: 40pt
 }
@@ -113,17 +124,6 @@ body {
 	font-family: 'Fruktur', cursive;
 	font-size: 20pt;
 	color:red;
-}
-
-.abo {
-	
-    background-color:    rgba(31, 26, 26, 0.5);
-    color: #fff;
-}
-
-.abo p {
-    max-width: 1055px;
-    margin: 0 auto;
 }
 
 
