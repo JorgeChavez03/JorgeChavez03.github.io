@@ -41,8 +41,69 @@ body {
 .miBiografia{
 	padding: 10px;
 }
+/**********Estilos formulario lab07********************/
+#pLabSeven{
+	background-color: #C8F5E8;
+}
 
+.myForm{
+	padding-top: 50px;
+	padding-left: 50px;
+	text-align: left;
+}
+.myBtn{
+	padding: 5px 50px 5px 50px;
+	background-color: #F19D19;
+	border-radius: 5px;
+	color: white;
+}
 
+.myBtnColor{
+	padding: 5px 50px 5px 50px;
+	background-color: #B74919;
+	border-radius: 5px;
+	color: white;
+}
+
+.myLabel{
+	padding: 5px;
+	width: 170px;
+	background-color: #1D6FA9;
+	color: white;
+}
+
+.myLabelR{
+	padding: 5px;
+	width: 165px;
+	background-color: #B74919;
+	color: white;
+}
+
+.PintarR{
+	padding: 5px;
+	width: 170px;
+	background-color: #B74919;
+	color: white;
+}
+
+.PintarA{
+	padding: 5px;
+	width: 165px;
+	background-color: #1D6FA9;
+	color: white;
+}
+
+.PintarBTN{
+	padding: 5px 50px 5px 50px;
+	background-color: #1D6FA9;
+	border-radius: 5px;
+	color: white;
+}
+
+.myTxt{
+	margin-left: 0px;
+	padding: 4px;
+}
 /********** CSS para el navbar**************/
 
 .navbar-a:hover {
