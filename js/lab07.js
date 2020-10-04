@@ -1,4 +1,5 @@
-
+//Funcion de colorear al hacer click
+//declaramo variables
 var btn=document.getElementById("colorear"),
     //
     lablP=document.getElementById("myLabelP"),
@@ -12,7 +13,7 @@ var btn=document.getElementById("colorear"),
     lablR2=document.getElementById("myLabelA2"),
     lablR3=document.getElementById("myLabelA3"),
     contador=0;
-
+//funcion que permitira cambiar de color
 function cambiarColor(){
 
     if(contador==0){
