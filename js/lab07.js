@@ -51,6 +51,7 @@ function cambiarColor(){
 btn.addEventListener("click",cambiarColor,true)
 
 ////////Funcino para separar apellidos
+///////////////codigo de extraer ape materno y ape paterno
 
 var btn2=document.getElementById("separar"),
     aPater=null,
