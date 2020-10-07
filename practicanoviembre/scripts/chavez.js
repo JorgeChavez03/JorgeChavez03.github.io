@@ -48,3 +48,17 @@ function fecha(){
         contador=0;
     }
 }
+
+function mostraImagenes(){
+
+    var imagenes= document.getElementById("imgs"),
+        imgReal=document.getElementById("imgMostrar");
+    
+    if (imagenes.style.display === "block") {
+        imgReal.style.display = "block";
+        imagenes.style.display = "none";
+    } else {
+        imagenes.style.display = "block";
+        imgReal.style.display = "none";
+    }
+}

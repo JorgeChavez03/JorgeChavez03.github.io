@@ -6,10 +6,12 @@
 
 <body>
 
+  <div class="lineaTop"></div><br>
+
   <div class="columnNoticia">
   <div class="titulo">
     Desde <span class="span1">Sectores y Empresa</span>
-  </div>
+  </div><br>
   
   <div class="botones">
     <button class="btnUno">Inmobiliario</button>
@@ -19,19 +21,19 @@
   <img class="imgN" src="images/inmobiliario.jpg">
 
   <div class="cuerpoNoticia">
-    <h1>Vvivienda residencial:</h1>
-    <h3>avanzan las ventas, pero todavia no el precio</h3>
+    <h3>Vivienda residencial: avanzan las ventas, pero todavia no el precio</h3>
+    <p>El segmento da sus primeras señales de recuperacion, aunque el valor del metro cuadrado en Lima Top seguira bajo por algunos meses más.</p>
   </div>
 
-  <p id="txtCambiarUno">Lectura en 3 min</p>
+  <p id="txtCambiarUno" style="float:right;">Lectura en 3 min</p>
 
   </div>
 
 
   <div class="columnNoticia">
     <div class="titulo">
-      Desde <span class="span1">Talento y Cultura</span>
-    </div>
+      Desde <span class="span2">Management</span>
+    </div><br>
     
     <div class="botones">
       <button class="btnDos" onclick="fecha()">Talento y cultura</button>
@@ -41,12 +43,12 @@
     <img class="imgN" src="images/talento y cultura.jpg">
   
     <div class="cuerpoNoticia">
-      <h1>El nuevo CEO de Delosi y otras movidas empresariales</h1>
-      <h3>Kia Peru</h3>
+      <h3>El nuevo CEO de Delosi y otras movidas empresariales</h3>
+      <p>Kia Peru, EY Peru y DLA Piper Peru tambien realizaron nuevos nombramientos.</p>
     </div>
 
-
-    <p id="txtCambiarDos">Lectura en 2 min</p>
+    <p id="txtCambiarDos" style="float:right;">Lectura en 2 min</p>
+    <br><br>
     <div  id="mostrarFecha"></div>
   
     </div>
@@ -56,8 +58,8 @@
 
     <div class="columnNoticia">
       <div class="titulo">
-        Desde <span class="span1">Politica</span>
-      </div>
+        Desde <span class="span3">Legal y Politica</span>
+      </div><br>
       
       <div class="botones">
         <button class="btnTres">Politica</button>
@@ -67,12 +69,12 @@
       <img class="imgN" src="images/politica.jpg">
     
       <div class="cuerpoNoticia">
-        <h1>Editorial ¿Y la sensatez economica</h1>
-        <h3>avanzan las ventas, pero todavia no el precio</h3>
+        <h3>Editorial ¿Y la sensatez economica</h3>
+        <p>LA VOZ DE SE. Las agendas politicas a nivel comprometen la recuperacion economica. El gobierno debe agotar todo esfuerzo para neutralizarlas.</p>
       </div>
     
 
-      <p id="txtCambiarTres">Lectura en 3 min</p>
+      <p id="txtCambiarTres" style="float:right;">Lectura en 3 min</p>
 
       </div>
 
@@ -80,22 +82,31 @@
 
       <div class="columnNoticia">
         <div class="titulo">
-          Desde <span class="span1">Turismo</span>
-        </div>
+          Desde <span class="span4">Sectores y Empresas</span>
+        </div><br>
         
         <div class="botones">
-          <button class="btnCuatro">Turismo</button>
+          <button class="btnCuatro" onclick="mostraImagenes()">Sectores y empresas</button>
           <img class="imgPekeña" src="images/c.png" width="15px">
         </div><br>
 
-        <img class="imgN" src="images/turismo.jpg">
+        <img class="imgN" id="imgMostrar" src="images/turismo.jpg">
+
+
+        <div class="imgCinco" id="imgs">
+          <img src="images/img01.jpg"><br><br>
+          <img src="images/img02.jpg"><br><br>
+          <img src="images/img03.jpg"><br><br>
+          <img src="images/img04.jpg"><br><br>
+          <img src="images/img05.jpg">
+        </div>
       
         <div class="cuerpoNoticia">
-          <h1>Reapertura de fronteras: hoy inicia la reactivacion del circuito turistico regional</h1>
-          <h3>avanzan las ventas, pero todavia no el precio</h3>
+          <h3>Reapertura de fronteras: hoy inicia la reactivacion del circuito turistico regional</h3>
+          <p>La regreso de los vuelos internacionales, desde el 5 de octubre, es el comienzo de la transicion de la reactivacion turistica interna a la regional. Sin embargo, algunos factores puedes retr...</p>
         </div>
 
-        <p id="txtCambiarCuatro">Lectura en 5 min</p>
+        <p id="txtCambiarCuatro" style="float:right;">Lectura en 5 min</p>
       
         </div>
 

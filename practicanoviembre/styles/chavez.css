@@ -1,11 +1,36 @@
+body{
+    font-family: "Arial Black";
+}
 .columnNoticia{
     float: left;
     display: block;
-    width: 320px;
-    padding-right: 10px;
+    width: 280px;
+    padding: 25px;
+    border-right: solid #F5D5D4 1px;
+}
+.lineaTop{
+    border-top: solid #F5D5D4 1px;
 }
 .span1{
-    color: red;
+    color: #D6554F;
+}
+.span2{
+    color:  #DFA70F;
+}
+.span3{
+    color: #853688;
+}
+.span4{
+    color: #D6554F;
+}
+
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+
+p{
+    color: #8E7E98;
+    font-family:'Lucida Sans' ;
 }
 
 .imgN{
@@ -19,29 +44,33 @@
 
 .btnUno{
     padding: 5px;
-    background-color: red;
+    background-color: #D6554F;
     border: none;
     color: white;
-    font-family:  Verdana;
+    font-family: "Arial Black";
 }
 .btnDos{
     padding: 5px;
-    background-color: yellow;
+    background-color: #DFA70F;
     border: none;
     color: white;
-    font-family:  Verdana;
+    font-family: "Arial Black";
 }
 .btnTres{
     padding: 5px;
     background-color: #853688;
     border: none;
     color: white;
-    font-family:  Verdana;
+    font-family: "Arial Black";
 }
 .btnCuatro{
     padding: 5px;
     background-color: #D6554F;
     border: none;
     color: white;
-    font-family:  Verdana;
+    font-family: "Arial Black";
+}
+
+.imgCinco{
+   display: none;
 }
