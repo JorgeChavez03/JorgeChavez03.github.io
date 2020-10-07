@@ -12,9 +12,10 @@
   </div>
   
   <div class="botones">
-    <button>Inmobiliario</button>
-    <img src="images/c.png" width="15px">
-  </div>
+    <button class="btnUno">Inmobiliario</button>
+    <img  class="imgPekeña" src="images/c.png" width="15px"  onclick="cambioUno()">
+  </div><br>
+
   <img class="imgN" src="images/inmobiliario.jpg">
 
   <div class="cuerpoNoticia">
@@ -22,24 +23,31 @@
     <h3>avanzan las ventas, pero todavia no el precio</h3>
   </div>
 
+  <p id="txtCambiarUno">Lectura en 3 min</p>
+
   </div>
 
 
   <div class="columnNoticia">
     <div class="titulo">
-      Desde <span class="span1">Sectores y Empresa</span>
+      Desde <span class="span1">Talento y Cultura</span>
     </div>
     
     <div class="botones">
-      <button>Inmobiliario</button>
-      <img src="images/c.png" width="15px">
-    </div>
-    <img class="imgN" src="images/inmobiliario.jpg">
+      <button class="btnDos" onclick="fecha()">Talento y cultura</button>
+      <img  class="imgPekeña" src="images/c.png" width="15px">
+    </div><br>
+
+    <img class="imgN" src="images/talento y cultura.jpg">
   
     <div class="cuerpoNoticia">
       <h1>Vvivienda residencial:</h1>
       <h3>avanzan las ventas, pero todavia no el precio</h3>
     </div>
+
+
+    <p id="txtCambiarDos">Lectura en 2 min</p>
+    <div  id="mostrarFecha"></div>
   
     </div>
 
@@ -48,41 +56,52 @@
 
     <div class="columnNoticia">
       <div class="titulo">
-        Desde <span class="span1">Sectores y Empresa</span>
+        Desde <span class="span1">Politica</span>
       </div>
       
       <div class="botones">
-        <button>Inmobiliario</button>
-        <img src="images/c.png" width="15px">
-      </div>
-      <img class="imgN" src="images/inmobiliario.jpg">
+        <button class="btnTres">Politica</button>
+        <img class="imgPekeña"  src="images/c.png" width="15px"  onclick="cambioTres()"><br>
+      </div><br>
+
+      <img class="imgN" src="images/politica.jpg">
     
       <div class="cuerpoNoticia">
         <h1>Vvivienda residencial:</h1>
         <h3>avanzan las ventas, pero todavia no el precio</h3>
       </div>
     
+
+      <p id="txtCambiarTres">Lectura en 3 min</p>
+
       </div>
 
 
 
       <div class="columnNoticia">
         <div class="titulo">
-          Desde <span class="span1">Sectores y Empresa</span>
+          Desde <span class="span1">Turismo</span>
         </div>
         
         <div class="botones">
-          <button>Inmobiliario</button>
-          <img src="images/c.png" width="15px">
-        </div>
-        <img class="imgN" src="images/inmobiliario.jpg">
+          <button class="btnCuatro">Turismo</button>
+          <img class="imgPekeña" src="images/c.png" width="15px">
+        </div><br>
+
+        <img class="imgN" src="images/turismo.jpg">
       
         <div class="cuerpoNoticia">
           <h1>Vvivienda residencial:</h1>
           <h3>avanzan las ventas, pero todavia no el precio</h3>
         </div>
+
+        <p id="txtCambiarCuatro">Lectura en 5 min</p>
       
         </div>
+
+
+
+<script src="scripts/chavez.js" ></script>
 
 </body>
 </html>
